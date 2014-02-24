@@ -1,0 +1,66 @@
+body {
+	padding-top: 60px;
+}
+
+.sidebar{
+	padding: 10px;
+	
+}
+ul{
+	list-style:none;
+	-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 0px;
+}
+li{
+	list-style-type:none;
+}
+.tasklist{
+	
+	
+	width:250px;
+	margin:0px 5px;
+}
+.tasklist.active{
+	color:blue;
+	
+}
+.taskDrop{
+	min-height:80px;
+	line-height:80px;
+	text-align:center;
+	background:yellow;
+	color:#000;
+}
+
+.tasklistSec{
+	min-height:50px;
+}
+
+.tasklist:last-child{
+	border-bottom-width:0px;
+}
+
+
+.tasklist .list-remove{
+	display: none;
+}
+.tasklist:hover .list-remove{
+	display: block;
+}
+
+.task{
+	padding:10px;
+	border-bottom: 1px solid #ccc;
+	background:#DDD;
+	cursor:pointer;
+	word-wrap:break-word;
+}
+
+footer{
+	height:40px;
+	line-height:40px;
+	background:#eee;
+}
